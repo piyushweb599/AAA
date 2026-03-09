@@ -13,7 +13,7 @@ public class Calculator {
 		return a+b;
 	}
 	
-	//making some changes
+	//changes made
 	//http://localhost:8080/
 	@GetMapping("calci/sub/{a}/{b}")
 	int sub(@PathVariable int a,@PathVariable int b)
